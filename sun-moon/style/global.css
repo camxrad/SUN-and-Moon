@@ -1,0 +1,68 @@
+img{
+    width:100%;
+    margin-top: em;
+}
+
+#photo{
+    
+    width: 60%;
+    margin: auto;
+    grid-area: photo;
+    
+
+}
+
+
+html{
+    
+    background-color: ghostwhite;  
+}
+
+
+
+.container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    align-items: center;
+    justify-content: center;
+    grid-template: "photo";
+    height: 100vh; 
+    width:100vw;
+    margin-top: -4.5em;
+    
+    
+      
+    
+}
+
+header {
+    font-size: 4em;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #f9c21f;
+    margin-top: 1.25em ;
+    margin-bottom: -1.25em;
+}
+
+header2 {
+    font-size: 4em;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #372c6b;
+    margin-top:-1.25em ;
+    margin-bottom: -1.25em;
+}
+
+
+footer{
+    font-size: 1.2em;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #f9c21f;
+}
+
+
+    
+
+

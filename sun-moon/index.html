@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8"/>
+    <title>sun &amp; moon</title>
+    <meta name="Sun in day moon at night" content="Sun in day moon at night">
+    <meta name="Cameron Radenberg" content="Cameron Radenberg">
+    <link rel="stylesheet" href="style/global.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+</head>
+
+<body>
+    
+
+<div class="container">
+        <div id="photo">
+            
+            <script>
+                
+                 var currentDate = new Date;
+            var hour = currentDate.getHours();
+                alert(hour);
+                
+                if( (hour> 5) && (hour<17)   ) {
+                
+       document.write("<header><h1>S U N</h1></header>")
+    
+                } else {   document.write("<header2><h2>M O O N</h2></header2>")
+                       
+                       }
+                              
+            var currentDate = new Date;
+            var hour = currentDate.getHours();
+                alert(hour);
+                
+                if( (hour> 5) && (hour<17)   ) {
+                
+       document.write("<img src=\"image/day.png\">")
+    
+                } else {   document.write("<img src=\"image/night.png\">")
+                       
+                       }
+                
+        
+            </script>
+            
+        </div>
+    
+    <footer><small>© 2 0 1 8 c a m x r a d</small></footer>
+</div>
+    
+</body>
+</html>
